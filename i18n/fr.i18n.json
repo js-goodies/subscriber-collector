@@ -1,0 +1,39 @@
+{
+  "components": {
+    "userMenu": {
+      "logout": "Se déconnecter",
+      "login": "Connecter",
+      "join": "Joindre",
+      "newsletters": "Newsletters"
+    }
+  },
+  "pages": {
+    "authPageJoin": {
+      "emailRequired": "Email est obligatoire",
+      "passwordRequired": "Mot de passe est obligatoire",
+      "passwordConfirm": "S'il vous plaît confirmer votre mot de passe",
+      "join": "Joindre.",
+      "joinReason": "Rejoindre vous permet de faire des listes privées",
+      "yourEmail": "Votre email",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmez le mot de passe",
+      "joinNow": "Joindre",
+      "haveAccountSignIn": "Avoir un compte? Se connecter"
+    },
+    "authPageSignIn": {
+      "emailRequired": "Email est obligatoire",
+      "passwordRequired": "Mot de passe est obligatoire",
+      "signIn": "Se connecter.",
+      "signInReason": "Connectez-vous pour afficher les listes privées",
+      "yourEmail": "Votre email",
+      "password": "Mot de passe",
+      "signInButton": "Se connecter",
+      "needAccount": "Besoin d'un compte? S'inscrire maintenant."
+    },
+    "notFoundPage": {
+      "pageNotFound": "Page non trouvée"
+    }
+  },
+  "api": {
+  }
+}

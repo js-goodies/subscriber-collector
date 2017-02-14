@@ -1,0 +1,26 @@
+@import "/imports/ui/layouts/App.less";
+@import "/imports/ui/pages/NewslettersPage.less";
+
+html, body, #app {
+  position: relative;
+  min-height: 100%;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+}
+
+.fade-leave {
+  display: none !important;
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 200ms ease-in;
+}
